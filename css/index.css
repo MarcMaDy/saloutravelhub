@@ -1,0 +1,77 @@
+body {
+  background-color: #ebeaea; 
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  overflow-x: hidden; 
+}
+*{box-sizing: border-box;}
+.containerinformatiu {
+  padding: 64px;
+  margin-top: -40px;
+  margin-bottom: -50px;
+}
+.font-g {
+  font-size: 38px;
+}
+.font-t{
+  text-align: justify;
+  line-height: 1.5;
+}
+.text-span{
+  text-align: justify;
+  text-decoration: underline;
+  text-align: justify;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+@media screen and (max-width: 1150px) {
+  .containerinformatiu {
+    padding: 0 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 50px;
+  margin-bottom: 30px;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 1150px) {
+  .image-container {
+    padding: 0 20px;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
