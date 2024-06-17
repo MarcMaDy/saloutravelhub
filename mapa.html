@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mapa</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Estils css -->
+  <link rel="stylesheet" type="text/css" href="css/menu.css"/>
+  <link rel="stylesheet" type="text/css" href="css/piepag.css"/>
+  <link rel="stylesheet" type="text/css" href="css/mapa.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Estils js -->
+  <script src="js/menu.js"></script>
+  <script src="js/piepag.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- Css mapa -->
+  <link rel="stylesheet" href="css/css_mapa/leaflet.css">
+  <link rel="stylesheet" href="css/css_mapa/L.Control.Layers.Tree.css">
+  <link rel="stylesheet" href="css/css_mapa/qgis2web.css">
+  <link rel="stylesheet" href="css/css_mapa/fontawesome-all.min.css">
+  <link rel="stylesheet" href="css/css_mapa/leaflet-measure.css">
+  <!-- Scripts mapa -->
+  <script src="js/js_mapa/qgis2web_expressions.js"></script>
+  <script src="js/js_mapa/leaflet.js"></script>
+  <script src="js/js_mapa/L.Control.Layers.Tree.min.js"></script>
+  <script src="js/js_mapa/leaflet.rotatedMarker.js"></script>
+  <script src="js/js_mapa/leaflet.pattern.js"></script>
+  <script src="js/js_mapa/leaflet-hash.js"></script>
+  <script src="js/js_mapa/Autolinker.min.js"></script>
+  <script src="js/js_mapa/rbush.min.js"></script>
+  <script src="js/js_mapa/labelgun.min.js"></script>
+  <script src="js/js_mapa/labels.js"></script>
+  <script src="js/js_mapa/leaflet-measure.js"></script>
+  <script src="map/data/Establimentshotelers_2.js"></script>
+  <script src="map/data/Cmpings_3.js"></script> 
+</head>
+<body>
+  
+  <!-- Barra de navegacion -->
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="equipo.html">Equip</a>
+    <a href="proyectos.html">Projecte</a>
+    <a href="mapa.html" class="active">Mapa</a>
+    <a href="contacto.html">Contacte</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- Contenidor per al text inicial -->
+  <div class="container1">
+    <h1 class="font-t">Anàlisi de l'oferta dels establiments hotelers</h1>
+    <p class="fonti-t">
+      A Salou, l'oferta turística es caracteritza per una gran varietat d'opcions, 
+      que inclouen des d'hotels de luxe i resorts fins a hostals i apartaments turístics 
+      més econòmics. La major part dels hotels estan dissenyats per a famílies, oferint 
+      instal·lacions com piscines, àrees de joc, així com activitats d'entreteniment i esportives. 
+    </p>
+    <p class="fonti-t">
+      La distribució de l'oferta hotelera a Salou és bastant desigual al territori. 
+      Destaca la zona més propera al Carrer Carles Buïgas, on es concentra la major 
+      part de l'oferta turística a més de l'emblemàtic Passeig Jaume I el qual acull 
+      també un gran nombre d'hotels d’alt nivell, bars, restaurants i botigues comercials. 
+      La zona interior propera al complex turístic Port Aventura World també ofereix una 
+      gran oferta d’establiments hotelers de 4 estrelles. Per contra, la zona del Cap Salou 
+      es presenta com una àrea més tranquil·la i de caràcter residencial, amb una densitat 
+      hotelera més baixa. En aquesta zona es troben hotels més petits i una gran quantitat 
+      d'apartaments vacacionals.
+    </p>
+    <p class="fonti-t">
+      A més de la seva variada oferta hotelera, el municipi de Salou compta amb una gamma 
+      de càmpings que ofereixen una alternativa atractiva per a aquells que busquen una 
+      experiència més propera a la natura i a l'aire lliure. Entre els càmpings, destaquen 
+      el Càmping Sangulí i La Siesta, els quals tenen una major superfície i influència sobre el territori.
+    </p>
+    <p class="fonti-t">
+      Aquesta oferta diversificada permet a Salou satisfer les necessitats de diferents 
+      tipus de visitants, des de famílies fins a parelles i grups d'amics, proporcionant una 
+      àmplia gamma d'allotjaments i experiències adaptades a totes les preferències.
+    </p>
+  </div>
+
+  <!-- Contenidor per al mapa i el text principal -->
+  <div class="container2">
+      <!-- Contenidor per al mapa -->
+      <div id="map" class="map"></div>
+  </div>
+
+  <!-- Peu de pàgina -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section logo-section">
+        <figure>
+          <a href="#">
+            <img src="fotos/logo_URV.png" alt="Logo URV">
+          </a>
+        </figure>
+      </div>
+      <div class="footer-section about-section">
+        <h2>Sobre Nosaltres</h2>
+        <p>Som una empresa compromesa amb la qualitat i la innovació.</p>
+        <p>Contacte: 977 777 666</p>
+      </div>
+      <div class="footer-section social-section">
+        <h2>Segueix-nos</h2>
+        <div class="social-links">
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+          <a href="https://twitter.com/" class="fa fa-twitter"></a>
+          <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>&copy; 2024 <b>Marc Martinez Dylong</b>.</small>
+    </div>
+  </footer>
+  <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top"><i class="arrow up"></i></button> <!-- Botó de retorn a dalt -->
+  <script src="js/map.js"></script>
+</body>
+</html>
