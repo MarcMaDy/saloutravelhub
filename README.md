@@ -17,7 +17,17 @@ Esmentar com les sis imatges incloses a l'apartat "Equip" han estat creades a pa
 <img src="fotos/Ima4IA.JPG" width="300" height="300">  <img src="fotos/Img7IA.JPG" width="300" height="300">
 
 ## Estructura de la web 🗂️
-La pàdina web s'estructura en cinc apartats diferents. A continuació s'exposarà l'informació que aporta cadascun dels apartats que conformen la pàgina web:
+La pàgina web s'estructura en cinc seccions diferents. A continuació, es resumeix breument la informació que s'exposa en cadascun dels apartats:
+
+- **Inici:** És el primer apartat que es mostra una vegada s'obre la pàgina web. En aquesta secció, es dona una breu definició del que entenem per turisme a més d'una breu contextualització de la influència del turisme al municipi en qüestió.
+
+- **Equip:** En aquest segon apartat es presenten els diferents membres que han participat en el projecte. Trobem, per tant, especialistes en diferents àmbits els quals d'acord amb els seus coneixements poden proporcionar una anàlisi i desenvolupament complet de la iniciativa presentada.
+
+- **Projecte:** En aquest tercer aparat s'entra amb molt més detall en què consisteix la iniciativa Salou Travel Hub (STH). També s'exposen els plans futurs als quals s'hauria d'adaptar la iniciativa sempre i quan es faci de manera sostenible.
+
+- **Mapa:** En aquest quart apartat s'explica l'oferta turística per seccions que ofereix el municipi i seguidament, es troba un mapa interactiu el qual mostra els diferents establiments hotelers i càmpings de forma categoritzada (s'indica el nivell dels establiments). L'usuari pot en tot moment interactuar amb el mapa i cercar els establiments turístics que estiguin dins de les seves preferències o possibilitats.
+
+- **Contactes:** En aquest cinquè i últim apartat es mostra una secció la qual permet als usuaris contactar directament amb els responsables del projecte. Així doncs, aquesta interacció es pot realitzar sempre que s'ompli informació personal bàsica (nom, cognoms, correu, motius, etc.).
 
 ## Web responsive 
 
