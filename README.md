@@ -23,8 +23,8 @@ La pàdina web s'estructura en cinc apartats diferents. A continuació s'exposar
 ## Dificultats/millores
 
 ## Agraiments
-- #Oriol Boronat: Documentació extreta del treball inical.
-- Zaira González: Valoració del apartat estètic de la pàgina web.
-- Carlos Soriano: Professor de l'assignatura Producció i Disseny Cartogràfic. Eines Web.
-- Benito Zaragozí: Professor de l'assignatura Producció i Disseny Cartogràfic. Eines Web.
+- **Oriol Boronat:** _Documentació extreta del treball inical realitzat._
+- **Zaira González:** _Valoració del apartat estètic de la pàgina web._
+- **Carlos Soriano:** _Professor de l'assignatura Producció i Disseny Cartogràfic. Eines Web._
+- **Benito Zaragozí:** _Professor de l'assignatura Producció i Disseny Cartogràfic. Eines Web._
  
