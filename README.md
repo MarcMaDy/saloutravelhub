@@ -6,10 +6,12 @@ La informació exposada a la pàgina web ha estat extreta d'un estudi previ real
 
 ## Imatges 📸
 Les imatges presentades a la pàgina web han estat elaboració pròpia. Aprofitant el meu lloc de residència a Salou, he recorregut algunes de les zones més turístiques del municipi per tal de captar a les imatges una representació directa del tema d’estudi que s'exposa a la pàgina web.
-<img src="./fotos/Img2.png" width="400" height="200"> <img src="fotos/Img3.png" width="400" height="200">
+
+<img src="./fotos/Img2.png" width="400" height="200">  <img src="fotos/Img3.png" width="400" height="200">
 
 Esmentar com les sis imatges incloses a l'apartat "Equip" han estat creades a partir d'intel·ligència artificial (IA). Així doncs, la informació ha estat creada per la IA "Artguru" la qual a través d'unes especificacions personals, ha generat unes imatges sobre les diverses modalitats d'experts que han intervingut de forma "fictícia" al projecte.  
-<img src="fotos/Ima4IA.JPG" width="300" height="200"> <img src="fotos/Img7IA.JPG" width="300" height="200">
+
+<img src="fotos/Ima4IA.JPG" width="300" height="300">  <img src="fotos/Img7IA.JPG" width="300" height="300">
 
 ## Estructura de la web 📋
 La pàdina web s'estructura en cinc apartats diferents. A continuació s'exposarà l'informació que aporta cadascun dels apartats que conformen la pàgina web:
