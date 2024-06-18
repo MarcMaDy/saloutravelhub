@@ -16,17 +16,16 @@ Esmentar com les sis imatges incloses a l'apartat "Equip" han estat creades a pa
 
 <img src="fotos/Ima4IA.JPG" width="300" height="300">  <img src="fotos/Img7IA.JPG" width="300" height="300">
 
-## Estructura de la web 📋
+## Estructura de la web 🗂️
 La pàdina web s'estructura en cinc apartats diferents. A continuació s'exposarà l'informació que aporta cadascun dels apartats que conformen la pàgina web:
-
 
 ## Web responsive 
 
 ## Cartografia 🗺️
 
-## Dificultats/millores 
+## Dificultats/millores ⚖️
 
-## Autor ✏️
+## Autor 📝
 - **Marc Martínez Dylong:** _Creació de de la pàgina web._
 
 ## Agraiments 🎁
