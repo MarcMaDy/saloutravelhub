@@ -2,7 +2,7 @@
 La iniciativa Salou Travel Hub, abreujada també com a STH, busca potenciar, promocionar i, a la vegada, ubicar els diferents equipaments turístics que es poden trobar al terme municipal de Salou per tal d'oferir als visitants una guia completa de les diferents opcions i ofertes disponibles. A més, el projecte busca mitjançant l'ús de cartografia interactiva, proporcionar informació sobre els diferents establiments turístics de forma categoritzada.
 
 ## Motivacions 🏆
-El motiu pel qual vaig decidir triar un tema relacionat amb els establiments turístics a Salou ha estat, en primer lloc, perquè trobo interessant les dinàmiques associades al turisme i, en segon lloc, el meu lloc de residència és a Salou. Com ja sabem, el turisme és una peça clau en el desenvolupament econòmic del municipi.
+El motiu pel qual vaig decidir triar un tema relacionat amb els establiments turístics a Salou ha estat, en primer lloc, perquè trobo interessant les dinàmiques associades al turisme i, en segon lloc, el meu lloc de residència sempre ha estat a Salou. Com ja sabem, el turisme és una peça clau en el desenvolupament econòmic del municipi de manera que vaig trobar interessant realitzar un projecte el qual tractés aquest tema.
 
 ## Documentació 📄
 La informació exposada a la pàgina web ha estat extreta d'un estudi previ realitzat l'any passat a l'assignatura "Espais i Recursos Turístics". L'estudi en qüestió es basava en l'anàlisi de l'oferta turística al terme municipal de Salou. Bona part de la informació es va extreure de la pàgina web de l'Ajuntament municipal així com d'estudis enfocats en l'anàlisi del turisme a Salou (potencial, oferta, demanda, equipaments, prediccions, fluxos, etc.).
@@ -27,7 +27,7 @@ La pàgina web s'estructura en cinc seccions diferents. A continuació, es resum
 
 - **Mapa:** En aquest quart apartat s'explica l'oferta turística per seccions que ofereix el municipi i seguidament, es troba un mapa interactiu el qual mostra els diferents establiments hotelers i càmpings de forma categoritzada (s'indica el nivell dels establiments). L'usuari pot en tot moment interactuar amb el mapa i cercar els establiments turístics que estiguin dins de les seves preferències o possibilitats.
 
-- **Contactes:** En aquest cinquè i últim apartat es mostra una secció la qual permet als usuaris contactar directament amb els responsables del projecte. Així doncs, aquesta interacció es pot realitzar sempre que s'ompli informació personal bàsica (nom, cognoms, correu, motius, etc.).
+- **Contactes:** En aquest cinquè i últim apartat es mostra una secció la qual permet als usuaris contactar directament amb els responsables del projecte. Així doncs, aquesta interacció es pot realitzar sempre que s'ompli informació personal bàsica (nom, cognoms, correu, motius).
 
 ## Web responsive 
 
