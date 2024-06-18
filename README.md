@@ -4,7 +4,8 @@ La iniciativa Salou Travel Hub abreujada també com a STH, busca potenciar, prom
 
 ## Dades/continguts (DADES I IMATGES)
 
-En aquest apartat s'explica d'on han estat extretes les dades i les fotografies per a aquesta pàgina web.
+En aquest apartat s'explica d'on han estat extretes les dades i les fotografies per a aquesta pàgina web:
+- Inici: 
 
 <img src="./fotos/Img10.JPG" width="200" height="200"> <img src="./fotos/Img2.png" width="200" height="200">
 
@@ -26,3 +27,4 @@ La pàdina web s'estructura en cinc apartats diferents. A continuació s'exposar
 
 ## Preguntes 
 
+## Agraiments
