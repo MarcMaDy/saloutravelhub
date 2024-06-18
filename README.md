@@ -1,8 +1,8 @@
-# Iniciativa Salou Travel Hub (STH) 
+# Iniciativa Salou Travel Hub (STH) 🏬
 
 La iniciativa Salou Travel Hub abreujada també com a STH, busca potenciar, promocionar i
 
-## Dades/continguts (DADES I IMATGES)
+## Dades/continguts 📘
 
 En aquest apartat s'explica d'on han estat extretes les dades i les fotografies per a aquesta pàgina web:
 - Inici: 
@@ -11,7 +11,9 @@ En aquest apartat s'explica d'on han estat extretes les dades i les fotografies 
 
 <img src="./fotos/Img11.png" width="200" height="200"> <img src="./fotos/Img8.jpg" width="200" height="200">
 
-## Estructura de la web
+## Imatges 📸
+
+## Estructura de la web 
 La pàdina web s'estructura en cinc apartats diferents. A continuació s'exposarà l'informació que aporta cadascun dels apartats que conformen la pàgina web:
 
 ## Web responsive
@@ -19,10 +21,12 @@ La pàdina web s'estructura en cinc apartats diferents. A continuació s'exposar
 
 ## Cartografia
 
-
 ## Dificultats/millores
 
-## Agraiments
+## Autor 📝
+- **Marc Martínez Dylong:** _Creació de de la pàgina web._
+
+## Agraiments 🎁
 - **Oriol Boronat:** _Documentació extreta del treball inical realitzat._
 - **Zaira González:** _Valoració del apartat estètic de la pàgina web._
 - **Carlos Soriano:** _Professor de l'assignatura Producció i Disseny Cartogràfic. Eines Web._
