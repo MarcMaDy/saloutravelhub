@@ -14,8 +14,6 @@ En aquest apartat s'explica d'on han estat extretes les dades i les fotografies 
 ## Estructura de la web
 La pàdina web s'estructura en cinc apartats diferents. A continuació s'exposarà l'informació que aporta cadascun dels apartats que conformen la pàgina web:
 
-
-
 ## Web responsive
 
 
@@ -24,7 +22,9 @@ La pàdina web s'estructura en cinc apartats diferents. A continuació s'exposar
 
 ## Dificultats/millores
 
-
-## Preguntes 
-
 ## Agraiments
+- #Oriol Boronat: Documentació extreta del treball inical.
+- Zaira González: Valoració del apartat estètic de la pàgina web.
+- Carlos Soriano: Professor de l'assignatura Producció i Disseny Cartogràfic. Eines Web.
+- Benito Zaragozí: Professor de l'assignatura Producció i Disseny Cartogràfic. Eines Web.
+ 
