@@ -27,13 +27,14 @@ La pàgina web s'estructura en cinc seccions diferents. A continuació, es resum
 
 - **Mapa:** En aquest quart apartat s'explica l'oferta turística per seccions que ofereix el municipi i seguidament, es troba un mapa interactiu el qual mostra els diferents establiments hotelers i càmpings de forma categoritzada (s'indica el nivell dels establiments). L'usuari pot en tot moment interactuar amb el mapa i cercar els establiments turístics que estiguin dins de les seves preferències o possibilitats.
 
-- **Contactes:** En aquest cinquè i últim apartat es mostra una secció la qual permet als usuaris contactar directament amb els responsables del projecte. Així doncs, aquesta interacció es pot realitzar sempre que s'ompli informació personal bàsica (nom, cognoms, correu, motius).
+- **Contactes:** En aquest cinquè i últim apartat es mostra una secció la qual permet als usuaris contactar directament amb els responsables del projecte. Així doncs, aquesta interacció es pot realitzar sempre que s'ompli la informació personal bàsica (nom, cognoms, correu, motius).
 
 ## Web responsive 
 
 ## Cartografia 🗺️
 
 ## Dificultats/millores ⚖️
+La realització de la pàgina web ha estat un procés molt enriquidor, però des del meu punt de vista, ha estat també un procés complex dins de les meves capacitats. Anteriorment a aquest projecte, mai havia utilitzat cap llenguatge de programació. A continuació, he volgut exposar tres dificultats que he tingut amb la creació de la pàgina web i, també, tres millores que es podrien fer per tal de millorar aquesta.
 
 ## Autor 📝
 - **Marc Martínez Dylong:** _Creació de de la pàgina web._
