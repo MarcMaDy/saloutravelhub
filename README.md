@@ -1,7 +1,7 @@
 # Iniciativa STH ✈️🏬📌
 La iniciativa Salou Travel Hub, abreujada també com a STH, busca potenciar, promocionar i, a la vegada, ubicar els diferents equipaments turístics que es poden trobar al terme municipal de Salou per tal d'oferir als visitants una guia completa de les diferents opcions i ofertes disponibles. A més, el projecte busca mitjançant l'ús de cartografia interactiva, proporcionar informació sobre els diferents establiments turístics de forma categoritzada.
 
-##Motivacions 🏆
+## Motivacions 🏆
 El motiu pel qual vaig decidir triar un tema relacionat amb els establiments turístics a Salou ha estat, en primer lloc, perquè trobo interessant les dinàmiques associades al turisme i, en segon lloc, el meu lloc de residència és a Salou. Com ja sabem, el turisme és una peça clau en el desenvolupament econòmic del municipi.
 
 ## Documentació 📄
