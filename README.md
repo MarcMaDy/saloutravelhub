@@ -5,11 +5,11 @@ La iniciativa Salou Travel Hub, abreujada també com a STH, busca potenciar, pro
 La informació exposada a la pàgina web ha estat extreta d'un estudi previ realitzat l'any passat a l'assignatura "Espais i Recursos Turístics". L'estudi en qüestió es basava en l'anàlisi de l'oferta turística al terme municipal de Salou. Bona part de la informació es va extreure de la pàgina web de l'Ajuntament municipal així com d'estudis enfocats en l'anàlisi del turisme a Salou (potencial, oferta, demanda, equipaments, prediccions, fluxos, etc.).
 
 ## Imatges 📸
+Les imatges presentades a la pàgina web han estat elaboració pròpia. Aprofitant el meu lloc de residència a Salou, he recorregut algunes de les zones més turístiques del municipi per tal de captar a les imatges una representació directa del tema d’estudi que s'exposa a la pàgina web.
 <img src="./fotos/Img2.png" width="400" height="200"> <img src="fotos/Img3.png" width="400" height="200">
-<img src="fotos/Img11.png" width="300" height="200" 
 
-<img src="./fotos/.JPG" width="500" height="200"> <img src="./fotos/Img2.png" width="200" height="200">
-<img src="./fotos/Img11.png" width="300" height="300"> <img src="./fotos/Img8.jpg" width="200" height="200">
+Esmentar com les sis imatges incloses a l'apartat "Equip" han estat creades a partir d'intel·ligència artificial (IA). Així doncs, la informació ha estat creada per la IA "Artguru" la qual a través d'unes especificacions personals, ha generat unes imatges sobre les diverses modalitats d'experts que han intervingut de forma "fictícia" al projecte.  
+<img src="fotos/Ima4IA.JPG" width="300" height="200"> <img src="fotos/Img7IA.JPG" width="300" height="200">
 
 ## Estructura de la web 📋
 La pàdina web s'estructura en cinc apartats diferents. A continuació s'exposarà l'informació que aporta cadascun dels apartats que conformen la pàgina web:
