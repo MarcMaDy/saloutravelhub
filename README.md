@@ -5,7 +5,8 @@ La iniciativa Salou Travel Hub, abreujada també com a STH, busca potenciar, pro
 La informació exposada a la pàgina web ha estat extreta d'un estudi previ realitzat l'any passat a l'assignatura "Espais i Recursos Turístics". L'estudi en qüestió es basava en l'anàlisi de l'oferta turística al terme municipal de Salou. Bona part de la informació es va extreure de la pàgina web de l'Ajuntament municipal així com d'estudis enfocats en l'anàlisi del turisme a Salou (potencial, oferta, demanda, equipaments, prediccions, fluxos, etc.).
 
 ## Imatges 📸
- <img src="fotos/Img1.png" width="400" height="200"> <img src="./fotos/Img2.png" width="400" height="200">
+<img src="./fotos/Img2.png" width="400" height="200"> <img src="fotos/Img3.png" width="400" height="200">
+<img src="fotos/Img11.png" width="300" height="200" 
 
 <img src="./fotos/.JPG" width="500" height="200"> <img src="./fotos/Img2.png" width="200" height="200">
 <img src="./fotos/Img11.png" width="300" height="300"> <img src="./fotos/Img8.jpg" width="200" height="200">
