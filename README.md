@@ -109,13 +109,13 @@ La secció "footer-bottom" conté una línia de text petit "small" la qual s'enc
     </div>
 ```
 
-Aquest botó, quan es fa clic, crida a la funció "scrollToTop()", que probablement es troba definida en un arxiu JavaScript extern. El botó té una icona de fletxa cap amunt, indicant per tant, el seu propòsit.
+Aquest botó, quan es fa clic, crida a la funció "scrollToTop()", qla qual es troba definida en un arxiu de JavaScript extern. El botó té una icona de fletxa cap amunt, indicant per tant, el seu propòsit.
 
 ``` HTML
 <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top"><i class="arrow up"></i></button> <!-- Botó de retorn a dalt -->
 ```
 
-Finalment, s'inclou un arxiu JavaScript "(js/*map.js)" que s'encarrega de quan la pàgina s'obre. Aquest script pot contenir la funcionalitat de la pàgina, com per exemple la definició de la funció "scrollToTop()".
+Finalment, s'inclou un arxiu JavaScript "(js/*map.js)" que s'encarrega de quan la pàgina s'obre, aquest script pot contenir la funcionalitat de la pàgina, com per exemple la definició de la funció "scrollToTop()".
 
 ``` HTML
 <script src="js/map.js"></script>
@@ -124,11 +124,13 @@ Finalment, s'inclou un arxiu JavaScript "(js/*map.js)" que s'encarrega de quan l
 ```
 
 ## Web responsive 💻📲
+Per aconseguir que la pàgina web es pugui adaptar a diferents mides o sigui, que sigui "responsive" he utilitzat una regla anomenada "media query". Per posar en context, un "media query" és una tècnica en CSS que permet aplicar estils específics a diferents dispositius o grandàries de pantalla. És fonamental per a crear llocs web els quals s'adaptin adequadament a diverses resolucions de pantalla, des de telèfons mòbils fins a monitors d'escriptori.
+
 
 ## Cartografia 🗺️
 La cartografia ha estat realitzada amb l'ajuda del programa QGIS. En aquest, s'ha digitalitzat els diferents establiments hotelers i càmpings que es poden trobar al municipi de Salou. Així doncs, al QGIS es van crear dues capes de punts on en aquestes, els punts van ser reemplaçats per dues imatges SVG diferents. Destacar com les capes de fons sobre les quals s'ha realitzat la digitalització són pròpies de ESRI (un és un mapa topogràfic i l'altra una imatge satèl·lit).
 
-Per a la creació del mapa es va utilitzar un complement anomenat QGIS2web el qual permet exportar el mapa en un format web. El resultat d'aquesta exportació va ser la creació d'una carpeta on en aquesta, es troben els diferents arxius d'interès (arxius HTML, CSS i JavaScript). La informació a l'interior de les carpetes es va dividir i agrupar en categories i seguidament, es van unir directament amb el meu codi donant com a resultat, un mapa integrat a la pàgina web.
+Per a la creació del mapa es va utilitzar un complement anomenat QGIS2web el qual permet exportar el mapa en un format web. El resultat d'aquesta exportació va ser la creació d'una carpeta on en aquesta, es troben els diferents arxius d'interès (arxius HTML, CSS i JavaScript). La informació a l'interior de les carpetes es va dividir i agrupar en categories, seguidament, es van unir directament amb el meu codi donant com a resultat, un mapa integrat a la pàgina web.
 
 ## Inconvenients/Millores ⚖️
 La realització de la pàgina web ha estat un procés molt enriquidor, però des del meu punt de vista, ha estat també un procés complex dins de les meves capacitats. Anteriorment a aquest projecte, mai havia utilitzat cap llenguatge de programació. A continuació, he volgut exposar tres inconvenients que he tingut amb la creació de la pàgina web i, també, tres millores que es podrien fer per tal de millorar aquesta.
