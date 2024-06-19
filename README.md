@@ -118,7 +118,7 @@ Aquest botó, quan es fa clic, crida a la funció "scrollToTop()", la qual es tr
 ## Web responsive 💻📲
 Per aconseguir que la pàgina web es pugui adaptar a diferents mides o sigui, que sigui "responsive" he utilitzat una regla anomenada "media query". Per posar en context, un "media query" és una tècnica en CSS que permet aplicar estils específics a diferents dispositius o grandàries de pantalla. És fonamental per a crear llocs web els quals s'adaptin adequadament a diverses resolucions de pantalla, des de telèfons mòbils fins a monitors d'escriptori.
 
-Per exemple al meu CSS on es pot trobar el mapa interactiu, s'ha utilitzat una regla de "media query" la qual permet ajustar el disseny de la pàgina quan l'amplada d'aquesta és de 768 píxels o menys.
+Per exemple al meu CSS on es pot trobar el mapa interactiu, s'ha utilitzat una regla de "media query" la qual permet ajustar el disseny de la pàgina quan l'amplada d'aquesta és igual a 768 píxels o inferior.
 
 ``` CSS
 @media screen and (max-width: 768px) {
