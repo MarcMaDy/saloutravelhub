@@ -29,9 +29,12 @@ La pàgina web s'estructura en cinc seccions diferents. A continuació, es resum
 
 - **Contactes:** En aquest cinquè i últim apartat es mostra una secció la qual permet als usuaris contactar directament amb els responsables del projecte. Així doncs, aquesta interacció es pot realitzar sempre que s'ompli la informació personal bàsica (nom, cognoms, correu, motius).
 
-## Web responsive 
+## Aspectes tècnics generals 📘
+
+## Web responsive 💻📲
 
 ## Cartografia 🗺️
+La cartografia ha estat realitzada amb l'ajuda del programa QGIS. En aquest, s'ha digitalitzat els diferents establiments hotelers i càmpings que es poden trobar al municipi de Salou. Així doncs, al QGIS es van crear dues capes de punts on en aquestes, els punts van estar reemplaçats per dues imatges SVG diferents. Destacar com les capes de fons sobre les quals s'ha realitzat la digitalització són de pròpies de ESRI (un és un mapa topogràfic i l'altra una imatge satèl·lit).
 
 ## Dificultats/Millores ⚖️
 La realització de la pàgina web ha estat un procés molt enriquidor, però des del meu punt de vista, ha estat també un procés complex dins de les meves capacitats. Anteriorment a aquest projecte, mai havia utilitzat cap llenguatge de programació. A continuació, he volgut exposar tres dificultats que he tingut amb la creació de la pàgina web i, també, tres millores que es podrien fer per tal de millorar aquesta.
@@ -53,7 +56,7 @@ La realització de la pàgina web ha estat un procés molt enriquidor, però des
 3. Les imatges generades amb intel·ligència artificial podrien haver estat reemplaçades directament per imatges reals, aportant d'aquesta manera un toc més professional a la pàgina web. 
 
 ## Autor 📝
-- **Marc Martínez Dylong:** _Creació de de la pàgina web._
+- **Marc Martínez Dylong:** _Creació de la pàgina web._
 
 ## Agraiments 🎁
 - **Oriol Boronat:** _Documentació extreta del treball inical realitzat._
