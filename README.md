@@ -118,6 +118,17 @@ Aquest botó, quan es fa clic, crida a la funció "scrollToTop()", la qual es tr
 ## Web responsive 💻📲
 Per aconseguir que la pàgina web es pugui adaptar a diferents mides o sigui, que sigui "responsive" he utilitzat una regla anomenada "media query". Per posar en context, un "media query" és una tècnica en CSS que permet aplicar estils específics a diferents dispositius o grandàries de pantalla. És fonamental per a crear llocs web els quals s'adaptin adequadament a diverses resolucions de pantalla, des de telèfons mòbils fins a monitors d'escriptori.
 
+Per exemple al meu CSS on es pot trobar el mapa interactiu, s'ha utilitzat una regla de "media query" la qual permet ajustar el disseny de la pàgina quan l'amplada d'aquesta és de 768 píxels o menys.
+
+``` HTML
+@media screen and (max-width: 768px) {
+  #map {
+    height: 400px;
+    width: 100%; 
+    padding: 0; 
+    float: none;
+    margin-bottom: 20px;
+```
 
 ## Cartografia 🗺️
 La cartografia ha estat realitzada amb l'ajuda del programa QGIS. En aquest, s'ha digitalitzat els diferents establiments hotelers i càmpings que es poden trobar al municipi de Salou. Així doncs, al QGIS es van crear dues capes de punts on en aquestes, els punts van ser reemplaçats per dues imatges SVG diferents. Destacar com les capes de fons sobre les quals s'ha realitzat la digitalització són pròpies de ESRI (un és un mapa topogràfic i l'altra una imatge satèl·lit).
