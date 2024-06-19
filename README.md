@@ -115,14 +115,6 @@ Aquest botó, quan es fa clic, crida a la funció "scrollToTop()", qla qual es t
 <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top"><i class="arrow up"></i></button> <!-- Botó de retorn a dalt -->
 ```
 
-Finalment, s'inclou un arxiu JavaScript "(js/*map.js)" que s'encarrega de quan la pàgina s'obre, aquest script pot contenir la funcionalitat de la pàgina, com per exemple la definició de la funció "scrollToTop()".
-
-``` HTML
-<script src="js/map.js"></script>
-</body>
-</html>
-```
-
 ## Web responsive 💻📲
 Per aconseguir que la pàgina web es pugui adaptar a diferents mides o sigui, que sigui "responsive" he utilitzat una regla anomenada "media query". Per posar en context, un "media query" és una tècnica en CSS que permet aplicar estils específics a diferents dispositius o grandàries de pantalla. És fonamental per a crear llocs web els quals s'adaptin adequadament a diverses resolucions de pantalla, des de telèfons mòbils fins a monitors d'escriptori.
 
