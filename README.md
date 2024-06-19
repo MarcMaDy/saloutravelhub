@@ -30,7 +30,11 @@ La pàgina web s'estructura en cinc seccions diferents. A continuació, es resum
 - **Contactes:** En aquest cinquè i últim apartat es mostra una secció la qual permet als usuaris contactar directament amb els responsables del projecte. Així doncs, aquesta interacció es pot realitzar sempre que s'ompli la informació personal bàsica (nom, cognoms, correu, motius).
 
 ## Aspectes tècnics generals 📘
+Pel que fa el peu de pàgina (footer en anglès) esmentar com primerament he aplicat els estils que hem semblaven més adients per al projecte en qüestió. En el codi següent:
 
+><footer class="footer">
+  <div class="footer-container" 
+   
 ## Web responsive 💻📲
 
 ## Cartografia 🗺️
