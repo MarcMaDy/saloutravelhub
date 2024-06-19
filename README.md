@@ -120,7 +120,7 @@ Per aconseguir que la pàgina web es pugui adaptar a diferents mides o sigui, qu
 
 Per exemple al meu CSS on es pot trobar el mapa interactiu, s'ha utilitzat una regla de "media query" la qual permet ajustar el disseny de la pàgina quan l'amplada d'aquesta és de 768 píxels o menys.
 
-``` HTML
+``` CSS
 @media screen and (max-width: 768px) {
   #map {
     height: 400px;
