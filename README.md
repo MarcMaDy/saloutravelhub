@@ -109,7 +109,7 @@ La secció "footer-bottom" conté una línia de text petit "small" la qual s'enc
     </div>
 ```
 
-Aquest botó, quan es fa clic, crida a la funció "scrollToTop()", qla qual es troba definida en un arxiu de JavaScript extern. El botó té una icona de fletxa cap amunt, indicant per tant, el seu propòsit.
+Aquest botó, quan es fa clic, crida a la funció "scrollToTop()", la qual es troba definida en un arxiu de JavaScript extern. El botó té una icona de fletxa cap amunt, indicant per tant, el seu propòsit.
 
 ``` HTML
 <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top"><i class="arrow up"></i></button> <!-- Botó de retorn a dalt -->
