@@ -34,13 +34,13 @@ En aquest apartat s'exposen aspectes tècnics generals essencials per al correct
 
 Començant amb el peu de pàgina, destacar primerament, com s'ha creat una línia la qual defineix un "div" que conté la barra de navegació. La classe "topnav"i la ID "myTopnav" s'utilitzen per aplicar estils específics a través de CSS i també, per fer referència a aquest "div" en scripts propis de JavaScript.
 
-```
+``` HTML
  <div class="topnav" id="myTopnav">
 ```
 
 Seguidament, es troben els enllaços de navegació els quals cadascun d'aquests apunta a una pàgina diferent del lloc web.
 
-```
+``` HTML
  <a href="index.html">Inici</a>
     <a href="equipo.html">Equip</a>
     <a href="proyectos.html">Projecte</a>
@@ -50,7 +50,7 @@ Seguidament, es troben els enllaços de navegació els quals cadascun d'aquests 
 
 Finalment, trobem un enllaç que s'utilitza per crear una icona de menú desplegable, la qual és utilitzada en interfases d'usuaris adaptades a dispositius mòbils.
 
-```
+``` HTML
 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
@@ -59,14 +59,14 @@ Finalment, trobem un enllaç que s'utilitza per crear una icona de menú despleg
 
 Pel que fa el peu de pàgina esmentar com primerament es defineix la secció del peu de pàgina (footer). La classe footer es pot utilitzar per aplicar estils específics a aquesta secció a través de CSS. Dins de "footer", tenim un contenidor (footer-contenidor) el qual agrupa totes les seccions del peu de pàgina.
 
-```
+``` HTML
  <footer class="footer"
     <div class="footer-container">
 ```
 
 A continuació, es mostra la secció on es va colocar el logotip de l'empresa o institució. L'etiqueta "figure" s'utilitza per marcar el contingut que està relacionat visualment (com una imatge). Dins de "figure" hi ha un enllaç, que actualment no apunta a cap pàgina específica. A l'enllaç, hi ha una imatge la qual mostra el logotip de la URV.
 
-```
+``` HTML
 <div class="footer-section logo-section">
         <figure>
           <a href="#">
@@ -78,7 +78,7 @@ A continuació, es mostra la secció on es va colocar el logotip de l'empresa o 
 
 Aquesta secció proporciona informació sobre l'empresa. Té un títol anomenat "Sobre Nosaltres", un paràgraf descrivint l'empresa i un altre paràgraf amb informació de contacte.
 
-```
+``` HTML
 <div class="footer-section about-section">
         <h2>Sobre Nosaltres</h2>
         <p>Som una empresa compromesa amb la qualitat i la innovació.</p>
@@ -88,7 +88,7 @@ Aquesta secció proporciona informació sobre l'empresa. Té un títol anomenat 
 
 També es va afegir una secció la qual conté enllaços a les xarxes socials de l'empresa. Cada enllaç té una classe que probablement correspon a icones de fonts, que mostraran les icones de les respectives xarxes socials.
 
-```
+``` HTML
  <div class="footer-section social-section">
         <h2>Segueix-nos</h2>
         <div class="social-links">
@@ -103,7 +103,7 @@ També es va afegir una secció la qual conté enllaços a les xarxes socials de
 
 La secció "footer-bottom" conté una línia de text petit "small" la qual s'encarrega d'esmentar els drets d'autor i el nom del titular del projecte.
 
-```
+``` HTML
   <div class="footer-bottom">
       <small>&copy; 2024 <b>Marc Martinez Dylong</b>.</small>
     </div>
@@ -111,13 +111,13 @@ La secció "footer-bottom" conté una línia de text petit "small" la qual s'enc
 
 Aquest botó, quan es fa clic, crida a la funció "scrollToTop()", que probablement es troba definida en un arxiu JavaScript extern. El botó té una icona de fletxa cap amunt, indicant per tant, el seu propòsit.
 
-```
+``` HTML
 <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top"><i class="arrow up"></i></button> <!-- Botó de retorn a dalt -->
 ```
 
 Finalment, s'inclou un arxiu JavaScript "(js/*map.js)" que s'encarrega de quan la pàgina s'obre. Aquest script pot contenir la funcionalitat de la pàgina, com per exemple la definició de la funció "scrollToTop()".
 
-```
+``` HTML
 <script src="js/map.js"></script>
 </body>
 </html>
@@ -126,12 +126,14 @@ Finalment, s'inclou un arxiu JavaScript "(js/*map.js)" que s'encarrega de quan l
 ## Web responsive 💻📲
 
 ## Cartografia 🗺️
-La cartografia ha estat realitzada amb l'ajuda del programa QGIS. En aquest, s'ha digitalitzat els diferents establiments hotelers i càmpings que es poden trobar al municipi de Salou. Així doncs, al QGIS es van crear dues capes de punts on en aquestes, els punts van estar reemplaçats per dues imatges SVG diferents. Destacar com les capes de fons sobre les quals s'ha realitzat la digitalització són de pròpies de ESRI (un és un mapa topogràfic i l'altra una imatge satèl·lit).
+La cartografia ha estat realitzada amb l'ajuda del programa QGIS. En aquest, s'ha digitalitzat els diferents establiments hotelers i càmpings que es poden trobar al municipi de Salou. Així doncs, al QGIS es van crear dues capes de punts on en aquestes, els punts van ser reemplaçats per dues imatges SVG diferents. Destacar com les capes de fons sobre les quals s'ha realitzat la digitalització són pròpies de ESRI (un és un mapa topogràfic i l'altra una imatge satèl·lit).
 
-## Dificultats/Millores ⚖️
-La realització de la pàgina web ha estat un procés molt enriquidor, però des del meu punt de vista, ha estat també un procés complex dins de les meves capacitats. Anteriorment a aquest projecte, mai havia utilitzat cap llenguatge de programació. A continuació, he volgut exposar tres dificultats que he tingut amb la creació de la pàgina web i, també, tres millores que es podrien fer per tal de millorar aquesta.
+Per a la creació del mapa es va utilitzar un complement anomenat QGIS2web el qual permet exportar el mapa en un format web. El resultat d'aquesta exportació va ser la creació d'una carpeta on en aquesta, es troben els diferents arxius d'interès (arxius HTML, CSS i JavaScript). La informació a l'interior de les carpetes es va dividir i agrupar en categories i seguidament, es van unir directament amb el meu codi donant com a resultat, un mapa integrat a la pàgina web.
 
-**Dificultats:**
+## Inconvenients/Millores ⚖️
+La realització de la pàgina web ha estat un procés molt enriquidor, però des del meu punt de vista, ha estat també un procés complex dins de les meves capacitats. Anteriorment a aquest projecte, mai havia utilitzat cap llenguatge de programació. A continuació, he volgut exposar tres inconvenients que he tingut amb la creació de la pàgina web i, també, tres millores que es podrien fer per tal de millorar aquesta.
+
+**Inconvenients:**
 
 1. He tingut seriosos problemes respecte a la integració del mapa a la pàgina web. Al principi em sortia un error el qual no em permetia visualitzar la llegenda (càmpings, establiments i capes). Tot i això, el problema el vaig resoldre i el resultat trobo que ha estat bastant acceptable dins dels meus coneixements.
 
@@ -148,11 +150,11 @@ La realització de la pàgina web ha estat un procés molt enriquidor, però des
 3. Les imatges generades amb intel·ligència artificial podrien haver estat reemplaçades directament per imatges reals, aportant d'aquesta manera un toc més professional a la pàgina web. 
 
 ## Autor 📝
-- **Marc Martínez Dylong:** _Creació de la pàgina web._
+- **Marc Martínez Dylong:** Creació de la pàgina web.
 
 ## Agraiments 🎁
-- **Oriol Boronat:** _Documentació extreta del treball inical realitzat._
-- **Zaira González:** _Valoració del apartat estètic de la pàgina web._
-- **Carlos Soriano:** _Professor de l'assignatura Producció i Disseny Cartogràfic. Eines Web._
-- **Benito Zaragozí:** _Professor de l'assignatura Producció i Disseny Cartogràfic. Eines Web._
+- **Oriol Boronat:** Documentació extreta del treball inical realitzat.
+- **Zaira González:** Valoració del apartat estètic de la pàgina web.
+- **Carlos Soriano:** Professor de l'assignatura Producció i Disseny Cartogràfic. Eines Web.
+- **Benito Zaragozí:** Professor de l'assignatura Producció i Disseny Cartogràfic. Eines Web.
  
