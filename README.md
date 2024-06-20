@@ -19,7 +19,7 @@ Esmentar com les sis imatges incloses a l'apartat "Equip" han estat creades a pa
 ## Estructura de la web 🗂️
 La pàgina web s'estructura en cinc seccions diferents. A continuació, es resumeix breument la informació que s'exposa en cadascun dels apartats:
 
-- **Inici:** És el primer apartat que es mostra una vegada s'obre la pàgina web. En aquesta secció, es dona una breu definició del que entenem per turisme a més d'una breu contextualització de la influència del turisme al municipi en qüestió.
+- **Inici:** És el primer apartat que es mostra una vegada s'obre la pàgina web. En aquesta secció, es dona una breu definició del que entenem per turisme a més d'una breu contextualització de la influència del turisme al municipi en qüestió. Destacar com la imatge superior és dinàmica i, per tant, si s'oprimeix una de les dues icones es poden visualitzar altres imatges relacionades amb l'àmbit d'estudi.
 
 - **Equip:** En aquest segon apartat es presenten els diferents membres que han participat en el projecte. Trobem, per tant, especialistes en diferents àmbits els quals d'acord amb els seus coneixements poden proporcionar una anàlisi i desenvolupament complet de la iniciativa presentada.
 
